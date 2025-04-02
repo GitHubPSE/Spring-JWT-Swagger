@@ -1,0 +1,8 @@
+jwt:
+  secret: my-secret-key-for-jwt-token-signature
+  expiration: 3600000
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
